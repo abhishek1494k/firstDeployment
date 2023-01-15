@@ -13,7 +13,7 @@ app.use(cors())
 require('dotenv').config()
 
 
-app.use("/users",userRouter)
+app.use("/",userRouter)
 app.use(authenticate)
 app.use("/notes",noteRouter)
 
